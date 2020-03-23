@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
+
+
+
 * {
   padding: 0;
   margin: 0;
@@ -50,8 +54,37 @@ section {
   margin: auto;
 }
 
-.icon-link:focus {
+.icon-link:hover {
   box-shadow: 
               inset 1rem 1rem 2rem rgba(0,0,0,0.1),
               inset -1rem -1rem 2rem rgba(255,255,255,0.5);
+}
+
+h3 {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #b6bbc5;
+  font-size: 8.6rem;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+}
+
+
+
+.fa-facebook-f:hover {
+  color: rgb(56, 119, 253);
+}
+
+.fa-twitter:hover {
+  color: rgb(95, 196, 255);
+}
+
+.fa-instagram:hover {
+  color: rgb(255, 95, 162);
+}
+
+.fa-linkedin-in:hover {
+  color: rgb(27, 30, 187);
 }
